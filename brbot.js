@@ -19,8 +19,8 @@ const runningByGroup = new Map();
 const runningByUser = new Map();
 
 const GLOBAL_MAX_CONCURRENCY = 50;
-const BATCH_SIZE = 29;
-const BATCH_PAUSE_MS = 500;
+const BATCH_SIZE = 39;
+const BATCH_PAUSE_MS = 200;
 
 /* ---------------- HELPERS ---------------- */
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
